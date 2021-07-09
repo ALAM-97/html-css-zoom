@@ -58,13 +58,12 @@ header .rec {
 /* MAIN */
 
 main {
-    height: calc(100vh - 60px);
-    background-color: royalblue;
+    height: calc(100vh - 140px);
     display: flex;
 }
 
 .main-left, .main-right {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 140px);
     width: 10%;
     background-color: #1a1a1a;
     display: flex;
@@ -76,9 +75,9 @@ main {
 }
 
 .main-center {
-    height:calc(100vh - 60px);
+    height:calc(100vh - 140px);
     width: 80%;
-    background-color: seagreen;
+    background-color: #1a1a1a;
 }
 
 .main-left-content {
@@ -126,4 +125,33 @@ main {
     padding-right: 5px;
     color: #63767a;
     font-weight: bold;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.video-section {
+    position: relative;
+    margin: 3px;
+    width: calc(20% - 6px);
+    height: 160px;
+    background-image: url(https://messaggimania.it/wp-content/uploads/2015/05/immagine-profilo-whatsapp-7-300x300.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: royalblue;
+    height: 100px;
 }
