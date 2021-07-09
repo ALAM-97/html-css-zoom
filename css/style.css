@@ -163,15 +163,38 @@ main {
     padding: 3px;
 }
 
-
-
-
-
-
-
 /* FOOTER */
 
 footer {
-    background-color: royalblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212325;
     height: 80px;
+}
+
+.left-footer, .center-footer, .right-footer {
+    color: #aaabac;
+}
+
+.left-footer-content {
+    display: flex;
+    margin-left: 40px;
+}
+
+.mute-icon, .camera-icon {
+    position: relative;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.mute-icon i, .camera-icon i{
+    font-size: 35px;
+}
+
+.mute-icon i.fa-angle-up, .camera-icon i.fa-angle-up {
+    position: absolute;
+    font-size: 14px;
+    right: 5px;
+    top: 10px;
 }
