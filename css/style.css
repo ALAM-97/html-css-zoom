@@ -143,6 +143,26 @@ main {
     border-radius: 10px;
 }
 
+.video-section .video-text {
+    position: absolute;
+    font-size: 16px;
+    bottom: 5px;
+    left: 5px;
+    opacity: 1;
+}
+
+.fa-microphone-slash {
+    color: red;
+    font-size: 18px;
+    opacity: 1;
+}
+
+.video-text-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 3px;
+}
+
 
 
 
@@ -153,5 +173,5 @@ main {
 
 footer {
     background-color: royalblue;
-    height: 100px;
+    height: 80px;
 }
