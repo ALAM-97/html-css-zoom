@@ -8,3 +8,53 @@
 
 /* COMMON */
 
+html {
+    
+}
+
+body {
+    color: white;
+}
+
+/* HEADER */
+
+header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+}
+
+.header-left {
+    display: flex;
+    margin-left: 15px;
+    align-items: center;
+}
+
+header .rec {
+    position: relative;
+    margin-left: 15px;
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.header-left div i {
+    color: #23d959;
+    font-size: 15px;
+}
+
+.text-bg {
+    background-color: #101010;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.header-right {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.header-right div {
+    padding
+}
