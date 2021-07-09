@@ -58,12 +58,12 @@ header .rec {
 /* MAIN */
 
 main {
-    height: calc(100vh - 140px);
+    height: calc(100vh - 120px);
     display: flex;
 }
 
 .main-left, .main-right {
-    height: calc(100vh - 140px);
+    height: calc(100vh - 120px);
     width: 10%;
     background-color: #1a1a1a;
     display: flex;
@@ -75,7 +75,7 @@ main {
 }
 
 .main-center {
-    height:calc(100vh - 140px);
+    height:calc(100vh - 120px);
     width: 80%;
     background-color: #1a1a1a;
 }
@@ -128,6 +128,7 @@ main {
 }
 
 .main-content {
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
 }
@@ -136,7 +137,7 @@ main {
     position: relative;
     margin: 3px;
     width: calc(20% - 6px);
-    height: 160px;
+    height: (100% / 5);
     background-image: url(https://messaggimania.it/wp-content/uploads/2015/05/immagine-profilo-whatsapp-7-300x300.jpg);
     background-size: cover;
     background-position: center;
@@ -170,31 +171,72 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: #212325;
-    height: 80px;
+    height: 60px;
 }
 
-.left-footer, .center-footer, .right-footer {
+.left-footer {
+    width: 12%;
+    color: #aaabac;
+}
+
+.center-footer {
+    width: 40%;
     color: #aaabac;
 }
 
 .left-footer-content {
     display: flex;
-    margin-left: 40px;
+    justify-content: space-evenly;
 }
 
-.mute-icon, .camera-icon {
+.icon {
     position: relative;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
-.mute-icon i, .camera-icon i{
-    font-size: 35px;
+.icon i {
+    font-size: 25px;
 }
 
-.mute-icon i.fa-angle-up, .camera-icon i.fa-angle-up {
+.icon i {
+    padding-bottom: 5px;
+}
+
+.icon i.fa-angle-up {
     position: absolute;
     font-size: 14px;
     right: 5px;
     top: 10px;
+}
+
+.center-footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.users-num {
+    position: absolute;
+    font-size: 16px;
+    top: 0;
+    right: 25px;
+}
+
+.green {
+    color: #23d959;
+    padding-right: 15px;
+}
+
+.end-button {
+    background-color: red;
+    padding: 10px 35px;
+    font-size: 18px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.end-button a {
+    color: white;
+    text-decoration: none;
 }
